@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"target": "esnext",
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"lib": ["es6", "es2017", "ES2015", "ESNext", "DOM"],
+		"allowSyntheticDefaultImports": true
+	},
+    "exclude": [
+		"node_modules"
+	]
+}

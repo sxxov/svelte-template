@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@import url('./style/tags/ai-text.tag.css');
+@import url('./style/tags/ai-title.tag.css');
+@import url('./style/tags/ai-container.tag.css');
+@import url('./style/tags/ai-icon.tag.css');
+
+:root {
+	--ease-fast-slow: cubic-bezier(0.075, 0.82, 0.165, 1);
+	--ease-slow-slow: cubic-bezier(0.77, 0, 0.175, 1);
+
+	--colour-text-primary: black;
+	--colour-text-secondary: #262626;
+	--colour-background-primary: white;
+	--colour-background-secondary: #f5f5f5;
+	--colour-accent-primary: #f78fb3;
+	--colour-accent-secondary: #f8a5c2;
+	--colour-warn-primary: #ff9f43;
+	--colour-warn-secondary: #feca57;
+	--colour-error-primary: #ee5253;
+	--colour-error-secondary: #ff6b6b;
+	--colour-ok-primary: #2ed573;
+	--colour-ok-secondary: #7bed9f;
+	--colour-overlay: black;
+
+	--font-family-mm: 'MuseoModerno', cursive;
+	--font-family-sm: 'Space Mono', monospace;
+	--font-family-ic: 'Material Icons';
+	--font-variation-thin: 'wght' 100;
+	--font-variation-light-extra: 'wght' 200;
+	--font-variation-light: 'wght' 300;
+	--font-variation-regular: 'wght' 400;
+	--font-variation-medium: 'wght' 500;
+	--font-variation-bold-semi: 'wght' 600;
+	--font-variation-bold: 'wght' 700;
+	--font-variation-bold-extra: 'wght' 800;
+	--font-variation-black: 'wght' 900;
+
+	--box-shadow-drop: 
+		20px 20px 60px rgba(0, 0, 0, 0.5), 
+		-20px -20px 60px rgba(255, 255, 255, 0.5);
+	--box-shadow-drop-inactive:
+		0 0 0 rgba(0, 0, 0, 0.5),
+		0 0 0 rgba(255, 255, 255, 0.5);
+	--box-shadow-inner:
+		inset 5px 5px 15px rgba(0, 0, 0, 0.3), 
+		inset -5px -5px 15px rgba(255, 255, 255, 0.3);
+	--box-shadow-inner-inactive:
+		inset 0 0 0 rgba(0, 0, 0, 0.3), 
+		inset 0 0 0 rgba(255, 255, 255, 0.3);
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+}
