@@ -26,7 +26,7 @@ export default {
 					dest: 'public',
 				},
 				{
-					src: 'src/index.js',
+					src: 'src/preload.js',
 					dest: 'public',
 				},
 			],
