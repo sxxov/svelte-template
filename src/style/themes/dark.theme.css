@@ -1,0 +1,15 @@
+:root.theme\:dark {
+	--colour-text-primary: #ebf0f7;
+	--colour-text-secondary: #e1e6ed;
+	--colour-background-primary: #272829;
+	--colour-background-secondary: #3b3c3d;
+	--colour-accent-primary: #f33c3c;
+	--colour-accent-secondary: #f07171;
+	--colour-warn-primary: #ff9f43;
+	--colour-warn-secondary: #feca57;
+	--colour-error-primary: #ee5253;
+	--colour-error-secondary: #ff6b6b;
+	--colour-ok-primary: #2ed573;
+	--colour-ok-secondary: #7bed9f;
+	--colour-overlay: black;
+}

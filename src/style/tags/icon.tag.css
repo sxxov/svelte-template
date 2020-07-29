@@ -1,0 +1,11 @@
+icon {
+	display: inline;
+
+	font-family: var(--font-family-ic);
+	font-variation-settings: var(--font-variation-regular);
+	text-indent: 0;
+	font-size: 1rem;
+	line-height: 1rem;
+
+	user-select: none;
+}
