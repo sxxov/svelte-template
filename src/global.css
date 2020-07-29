@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-@import url('./style/tags/ai-text.tag.css');
-@import url('./style/tags/ai-title.tag.css');
-@import url('./style/tags/ai-container.tag.css');
-@import url('./style/tags/ai-icon.tag.css');
+@import url('./style/tags.css');
+@import url('./style/fonts.css');
+@import url('./style/themes.css');
 
 :root {
-	--ease-fast-slow: cubic-bezier(0.075, 0.82, 0.165, 1);
+	--ease-fast-slow: cubic-bezier(0.25, 1, 0.5, 1);
 	--ease-slow-slow: cubic-bezier(0.77, 0, 0.175, 1);
+	--ease-slow-fast: cubic-bezier(0.5, 0, 0.75, 0);
 
 	--colour-text-primary: black;
 	--colour-text-secondary: #262626;
